@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Modrick Travels</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- font awesome cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- fonts -->
+        <link rel = "stylesheet" href = "font/fonts.css">
+        <!-- normalize css -->
+        <link rel = "stylesheet" href = "css/normalize.css">
+        <!-- custom css -->
+        <link rel = "stylesheet" href = "css/utility.css">
+        <link rel = "stylesheet" href = "css/style.css">
+        <link rel = "stylesheet" href = "css/responsive.css">
+    </head>
+    <body>
+        <!-- navbar  -->
+        <nav class = "navbar">
+            <div class = "container flex">
+                <a href = "index.html" class = "site-brand">
+                    Modrick<span>Travels</span>
+                </a>
+
+                <button type = "button" id = "navbar-show-btn" class = "flex">
+                    <i class = "fas fa-bars"></i>
+                </button>
+                <div id = "navbar-collapse">
+                    <button type = "button" id = "navbar-close-btn" class = "flex">
+                        <i class = "fas fa-times"></i>
+                    </button>
+                    <ul class = "navbar-nav">
+                        <li class = "nav-item">
+                            <a href = "index.html" class = "nav-link">Home</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "index.html"class = "nav-link">Gallery</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "index.html" class = "nav-link">Blog</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "index.html" class = "nav-link">About</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "index.html" class = "nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- end of navbar  -->
+
+        <!-- header -->
+        <header class = "flex">
+            <div class = "container">
+                <div class = "header-title">
+                    <h1>Leave Your Footprints.</h1>
+                    <!-- <h1>Meet new people</h1> -->
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus rerum maxime enim odit illum in molestias beatae doloremque, ratione optio.</p> -->
+                    <p>Every destination tells a unique story, and every moment becomes a cherished memory.</p>
+                    <p>We turn your dreams into reality.</p>
+                </div>
+                <p>A Venture Born from the Vision of Young Entrepreneur Alok Pratap Singh.</p>
+                <!-- <div class = "header-form">
+                    <h2>Choose your Travel location:</h2>
+                    <form class = "flex">
+                        <input type = "text" class = "form-control" placeholder="Destination name">
+                        <input type="date" class = "form-control" placeholder="Date">
+                        <input type="number" class = "form-control" placeholder="Price ($)">
+                        <input type="submit" class = "btn" value = "Search">
+                    </form>
+                </div> -->
+            </div>
+        </header>
+        <!-- header -->
+
+        <!-- featured section -->
+        <section id = "featured" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <span class = "lg-title" style="color: red;font-weight: 1000;">Starting @ 7999 per head </span>
+                    <p>For more details/bookings: <span class="lg-title" font-weight:1000>+918188944614, +918800625925</span></p>
+                    <h2 class = "lg-title">featured places</h2>
+                </div>
+
+                <div class = "featured-row">
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/goa.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Goa
+                            </span>
+                            <div>
+                                <p class = "text">Sun, sand, and endless charm. Explore the beauty of Goa with its golden beaches, cultural richness, and lively atmosphere. Your perfect escape awaits.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/pondi.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Pondicherry
+                            </span>
+                            <div>
+                                <p class = "text">Discover Pondicherry: French charm, coastal allure. Explore the beauty of serene beaches, colonial architecture, and a cultural blend that captivates.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/udaipur.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                               Udaipur
+                            </span>
+                            <div>
+                                <p class = "text">Lakeside elegance, royal grace. Immerse in the regal charm of palaces reflected on serene waters. Experience Udaipur, where every moment feels like a timeless masterpiece.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/manali.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Manali
+                            </span>
+                            <div>
+                                <p class = "text">Himalayan retreat, adventure's heartbeat. Embrace snow-capped peaks, crisp mountain air, and local warmth. Your gateway to nature's beauty and thrilling escapades.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/kasol.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Kasol
+                            </span>
+                            <div>
+                                <p class = "text">Kasol: Himalayan serenity, vibrant vibes. Explore nature's beauty, relax in cozy cafes, and experience the unique charm of this mountain retreat.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/Jammu.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Jammu
+                            </span>
+                            <div>
+                                <p class = "text">Jammu: Heritage, tranquility, and divine grace. Explore the beauty of ancient temples and the serenity of nature in this culturally rich city</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of featured section -->
+
+        <!-- services section -->
+        <section id = "services" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <span class = "sm-title">know about services that we offer</span>
+                    <h2 class = "lg-title">Our services</h2>
+                </div>
+
+                <div class = "services-row">
+                    <div class = "services-item">
+                        <span class = "services-icon">
+                            <i class = "fas fa-hotel"></i>
+                        </span>
+                        <h3>Luxurious Hotel</h3>
+                        <p class = "text">Step into a realm of unparalleled luxury and comfort curated just for you. Our commitment goes beyond providing a place to stay; it's about creating an oasis of indulgence where every detail is meticulously crafted to ensure your experience is nothing short of extraordinary.</p>
+                        <a href = "#" class = "btn">Read more</a>
+                    </div>
+
+                    <div class = "services-item">
+                        <span class = "services-icon">
+                            <i class = "fas fa-map-marked-alt"></i>
+                        </span>
+                        <h3>Trave Guide</h3>
+                        <p class = "text">Immerse yourself in the rich tapestry of cultures and landscapes, guided by our seasoned experts who curate experiences beyond the ordinary. Your travel aspirations come to life as we pave the way for memorable moments, turning each destination into a cherished tale of discovery and wonder.</p>
+                        <a href = "#" class = "btn">Read more</a>
+                    </div>
+
+                    <div class = "services-item">
+                        <span class = "services-icon">
+                            <i class = "fas fa-money-bill"></i>
+                        </span>
+                        <h3>Suitable Price</h3>
+                        <p class = "text">Crafting unforgettable moments need not break the bank. Our commitment to reasonable prices ensures that your journey is not just an exploration but an investment in memories. With us, affordability meets excellence, making your travel dreams a reality without compromise.</p>
+                        <a href = "#" class = "btn">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of services section -->
+
+        <!-- testimonials section -->
+        <section id = "testimonials" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <span class = "sm-title">what our clients say about us</span>
+                    <h2 class = "lg-title">testimonials</h2>
+                </div>
+
+                <div class = "test-row">
+                    <div class = "test-item">
+                        <p class = "text">A personalized adventure crafted with precision! Modrick Travels ensured every detail of our trip was thoughtfully considered. From charming guides to hidden gems, they transformed our travel into a tapestry of discovery.</p>
+                        <div class = "test-item-info">
+                            <img src = "images/test-1.jpg" alt = "testimonial">
+                            <div>
+                                <h3>Ankit Singh</h3>
+                                <p class = "text">Trip to Udaipur</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "test-item">
+                        <p class = "text">Unveiling the extraordinary! Modrick Travels not only took us to destinations but curated experiences that transcended the ordinary. Their commitment to creating unique memories left an indelible mark on our hearts.</p>
+                        <div class = "test-item-info">
+                            <img src = "images/test-2.jpg" alt = "testimonial">
+                            <div>
+                                <h3>Aditya Arora</h3>
+                                <p class = "text">Trip to Goa</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "test-item">
+                        <p class = "text">Just wow, I must say that you guys went beyond being tour organizers, everything was upto the mark. Prices were so affordable. Eagerly waitng for my next trip with the Modrick Travels.</p>
+                        <div class = "test-item-info">
+                            <img src = "images/test-3.jpg" alt = "testimonial">
+                            <div>
+                                <h3>Shruti Sharma</h3>
+                                <p class = "text">Trip to Manali</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of testimonials section -->
+
+        <!-- video section -->
+        <!-- <section id = "video">
+            <div class = "video-wrapper flex">
+                <video loop>
+                    <source src = "videos/video-section.mp4" type = "video/mp4">
+                </video>
+                <button type = "button" id = "play-btn">
+                    <i class = "fas fa-play"></i>
+                </button>
+            </div>
+        </section> -->
+        <!-- end of video section -->
+
+        <!-- footer -->
+        <footer class = "py-4">
+            <div class = "container footer-row">
+                <div class = "footer-item">
+                    <a href = "index.html" class = "site-brand">
+                        Modrick<span>Travels</span>
+                    </a>
+                    <img class="founder" src="images/founder.jpg" alt="Founder">
+                    <h3>Alok Pratap Singh</h3>
+                    <p class = "text">Founded by the visionary young entrepreneur Alok Pratap Singh, our journey began with a passion for redefining travel experiences. With a commitment to innovation and excellence, Alok Pratap Singh laid the foundation for a company dedicated to crafting unforgettable adventures and setting new standards in the world of travel.</p>
+                </div>
+
+                <div class = "footer-item">
+                    <h2>Follow us on: </h2>
+                    <ul class = "social-links">
+                        <!-- <li>
+                            <a href = "#">
+                                <i class = "fab fa-facebook-f"></i>
+                            </a>
+                        </li> -->
+                        <li>
+                            <a href = "https://www.instagram.com/modricktravels?igshid=YzAwZjE1ZTI0Zg==">
+                                <i class = "fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <!-- <li>
+                            <a href = "#">
+                                <i class = "fab fa-twitter"></i>
+                            </a>
+                        </li> -->
+                        <!-- <li>
+                            <a href = "#">
+                                <i class = "fab fa-pinterest"></i>
+                            </a>
+                        </li> -->
+                        <!-- <li>
+                            <a href = "#">
+                                <i class = "fab fa-google-plus"></i>
+                            </a>
+                        </li> -->
+                    </ul>
+                    Contact Number: +918188944614, +918800625925
+                     <p>Email id: xyz@gmail.com</p>
+                </div>
+
+
+                <div class = "footer-item">
+                    <h2>Popular Places:</h2>
+                    <ul>
+                        <li><a href = "#">Manali</a></li>
+                        <li><a href = "#">Goa</a></li>
+                        <li><a href = "#">Jammu & Kashmir</a></li>
+                        <li><a href = "#">Udaipur</a></li>
+                        <li><a href = "#">Podicherry</a></li>
+                    </ul>
+                </div>
+
+                <div class = "subscribe-form footer-item">
+                    <h2>Subscribe for More!</h2>
+                    <form class = "flex">
+                        <input type = "email" placeholder="Enter Email" class = "form-control">
+                        <input type = "submit" class = "btn" value = "Subscribe">
+                    </form>
+                </div>
+            </div>
+        </footer>
+        <!-- end of footer -->
+
+        <!-- js -->
+        <script src = "js/script.js"></script>
+        <script>
+            // play/pause video
+            let video = document.querySelector('.video-wrapper video');
+            document.getElementById('play-btn').addEventListener('click', () => {
+                if(video.paused){
+                    video.play();
+                } else {
+                    video.pause();
+                }
+            });
+        </script>
+    </body>
+</html>
