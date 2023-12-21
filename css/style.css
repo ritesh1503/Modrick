@@ -849,16 +849,12 @@ header.header-sm{
 
 .founder{
    
-      /* border-radius: 60%;
-      overflow: hidden;
-      width:200px;
-      height: 200px;
-      object-fit: cover; */
+      
       max-width: 200px;
     height: 200px;
-    position:relative;
+    /* position:relative;
     overflow: hidden;
-    border-radius: 60%;
+    border-radius: 20%; */
 }
 
 .logo{
